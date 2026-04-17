@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <title>Hækkeklipperne</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .box {
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    button {
+      background: #2e7d32;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Hækkeklipperne</h1>
+  <p>Professionel hækkeklipning til gode priser</p>
+</header>
+
+<section>
+
+<div class="box">
+  <h2>Priser</h2>
+  <p>35 kr/m – ensidig + top</p>
+  <p>40 kr/m – begge sider + top</p>
+</div>
+
+<div class="box">
+  <h2>Om os</h2>
+  <p>Vi er to unge gutter (19 og 18 år), der går på gymnasiet og brænder for at levere godt arbejde. Vi er pålidelige, engagerede og klar på at give dig en flot hæk.</p>
+</div>
+
+<div class="box">
+  <h2>Book tid</h2>
+  <input type="text" placeholder="Navn"><br><br>
+  <input type="date"><br><br>
+  <input type="number" placeholder="Antal meter"><br><br>
+  <button onclick="alert('Tak for din booking!')">Book nu</button>
+</div>
+
+</section>
+
+</body>
+</html>
